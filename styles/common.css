@@ -8,6 +8,7 @@
   --main-black-color: #000000;
   --footer-links-color: rgba (255, 255, 255, 0.6);
   --link-background-color: rgba(47, 48, 58, 0.8);
+  --transition-time-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 html {
   box-sizing: border-box;
