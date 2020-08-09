@@ -170,6 +170,7 @@ body {
     height: 600px;
     text-align: center;
     padding-top: 200px;
+    margin: 0px;
   }
   .main-title {
     font-weight: 900;
@@ -286,11 +287,14 @@ body {
   }
 }
 .feature-list-header {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  
 }
 
 .feature-list-icon-svg {
@@ -308,6 +312,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
+.what-we-do-wrapper {
+  padding-bottom: 94px;
+}
+
 .what-we-do {
   font-weight: 700;
   font-size: 36px;
@@ -350,6 +359,18 @@ body {
 }
 
 /* Team */
+
+.team {
+  padding-top: 94px;
+}
+
+.team-wrapper {
+  background-color: #F5F4FA;
+  padding-bottom: 94px;
+  padding-left: 74px;
+  padding-right: 74px;
+  
+}
 
 .team-contacts:not(:last-child) {
   margin-right: 30px;
@@ -437,6 +458,7 @@ transition: background-color 250ms var(--transition-time-function);}
   color: var(--primary-title-color);
   margin-bottom: 50px;
   margin-top: 0px;
+  padding-top: 94px;
 }
 
 .clients-container-item {
@@ -561,7 +583,7 @@ transition: fill 250ms var(--transition-time-function);
   height: 20px;
 }
 
-.sign-in-footer {
+/* .sign-in-footer {
   display: flex;
   justify-content: space-between;
   margin: 0px;
@@ -574,9 +596,9 @@ transition: fill 250ms var(--transition-time-function);
 .sign-in-footer-list {
   list-style: none;
   margin: 0px;
-}
+} */
 
-.button-footer {
+/* .button-footer {
   display: inline-flex;
   border: none;
   margin: 0px;
@@ -600,7 +622,7 @@ transition: fill 250ms var(--transition-time-function);
   padding-left: 29px;
   padding-right: 62px;
   color: #FFFFFF;
-}
+} */
 
 /* .button-footer > .icon {
   width: 20px;
@@ -609,7 +631,7 @@ transition: fill 250ms var(--transition-time-function);
   background-size: contain;
 } */
 
-.button-footer-text {
+/* .button-footer-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -622,7 +644,7 @@ transition: fill 250ms var(--transition-time-function);
 
 .button-footer-wrapper {
   margin-top: 20px;
-}
+} */
 
 
 /* Portfolio */
